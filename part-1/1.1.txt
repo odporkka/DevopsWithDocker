@@ -1,0 +1,5 @@
+ode@MacBook-Pro-4:~ docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+4966a80d9941        nginx               "nginx -g 'daemon of…"   28 seconds ago      Exited (0) 8 seconds ago                       ecstatic_euler
+3218ee5f9a25        nginx               "nginx -g 'daemon of…"   29 seconds ago      Exited (0) 2 seconds ago                       frosty_burnell
+a7fb978880d3        nginx               "nginx -g 'daemon of…"   31 seconds ago      Up 30 seconds              80/tcp              competent_tharp

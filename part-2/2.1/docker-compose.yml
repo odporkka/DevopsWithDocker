@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+  backend:
+    image: back
+    ports: 
+      - 8000:8000
+    volumes:
+      - ./logs.txt:/logs.txt
+
+  front:
+    image: front
+    ports:
+      - 5000:5000
+   

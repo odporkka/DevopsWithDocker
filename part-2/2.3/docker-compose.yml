@@ -1,0 +1,29 @@
+version: '3.5'
+
+services:
+  backend:
+    image: back
+    ports: 
+      - 8000:8000
+    volumes:
+      - ./logs.txt:/logs.txt
+    environment:
+      - REDIS=redis
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=supersecret
+      - DB_NAME=postgres
+      - DB_HOST=db
+
+  front:
+    image: front
+    ports:
+      - 5000:5000
+
+  redis:
+    image: redis:latest
+
+  db:
+    image: postgres:latest
+    environment:
+     - POSTGRES_USER=postgres
+     - POSTGRES_PASSWORD=supersecret 

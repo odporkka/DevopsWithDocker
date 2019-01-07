@@ -6,7 +6,7 @@ services:
     ports: 
       - 8000:8000
     volumes:
-      - ./logs.txt:/logs.txt
+      - ./logs.txt:/backend-example-docker-master/logs.txt
     environment:
       - REDIS=redis
 

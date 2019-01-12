@@ -1,4 +1,4 @@
 Docker Hub repo:
 https://cloud.docker.com/repository/docker/odeporkka/webgoat-dockerize
-Github repo:
+Github repo (with README.md):
 https://github.com/odporkka/WebGoat-dockerize

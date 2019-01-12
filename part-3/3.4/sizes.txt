@@ -1,7 +1,2 @@
-Before:
-  front: 413 MB
-  back: 317 MB 
-
-After:
-  front: 227MB
-  back: 130MB
+front: 413 MB -> 227MB
+back: 317 MB -> 130 MB
